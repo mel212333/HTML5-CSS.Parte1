@@ -29,6 +29,7 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+ 
 
 .productos{
     width: 940px;
@@ -49,6 +50,9 @@ nav a {
     border-radius: 10px;
 }
 
+
+
+
 .productos h2{
 font-size: 30px;
 font-weight: bold;
@@ -62,3 +66,34 @@ font-weight: bold;
     font-weight: bold;
     margin: top;
 }
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+ }
+
+ .productos li:hover{
+    border-color: #c78c19;
+    /* font-size: 33px; */
+}
+
+.productos li:active{
+    border-color: #088c19;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyringh{
+    color: #fff;
+    font-size: 13px;
+    margin: 20px;
+}
+
